@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+
+:root {
+  --bgColor: #080e1c;
+  --textWhite: #fff;
+}
+
+.theme-white{
+  --bgColor:  #fff;;
+  --textWhite:#080e1c;
+
+}
+
+.hero {
+  background: var(--bgColor);
+  height: 100vh;
+  overflow: hidden;
+}
+
+header nav {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 200px;
+}
+
+.logo span {
+  color: #23a3fe;
+  font-weight: 600;
+}
+
+.logo {
+  color: var(--textWhite);
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.nav-links a {
+  color: var(--textWhite);
+  margin: 0 30px;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: #23a3fe;
+}
+
+.icon {
+  cursor: pointer;
+  font-size: 25px;
+  color: var(--textWhite);
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: flex-end;
+  height: calc(100vh - 200px);
+  position: relative;
+}
+
+.div-text {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 50%;
+}
+
+.div-img {
+  position: absolute;
+  width: 30%;
+  bottom: -5px;
+  right: 0;
+  margin-right: 50px;
+}
+
+.div-img img {
+  width: 100%;
+}
+
+.div-text h4 {
+  color: #888888;
+  font-size: 22px;
+}
+
+.div-text h1 {
+  color: var(--textWhite);
+  font-size: 60px;
+  margin: 15px 0px 10px;
+}
+
+.div-text span {
+  color: #23a3fe;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.div-text .p {
+  color: var(--textWhite);
+  max-width: 100%;
+  letter-spacing: 1px;
+  margin: 20px 0 40px;
+}
+.button{
+  color: #fff;
+  background-color: #23a3fe;
+  padding: 15px 30px;
+  border: 1px solid #23a3fe;
+  position: relative;
+  top: 0;
+  transition: 0.3s;
+}
+.button:hover{
+  top: -8px;
+  box-shadow: 0 0 16px #23a3fe;
+}
+
+.social {
+  position: absolute;
+  top: 40%;
+  transform: translateY(-50%);
+  right: -40px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+
+}
+
+.social a {
+  color: #23a3fe;
+  font-size: 22px;
+  transition: 0.3s;
+}
+.social a:hover{
+  transform: scale(1.2);
+}
+

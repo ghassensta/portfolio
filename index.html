@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+
+<body class="theme-white">
+    <section class="hero">
+        <header>
+<nav>
+    <div class="logo"><span>Ghassen Sta </span></div>
+    <div class="nav-links">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#Servives">Servives</a>
+        <a href="#Portfolio">Portfolio</a>
+        <a href="#Contact">Contact</a>
+    </div>
+    <span   onclick="x()" class="icon"><i class="fa-solid fa-gear"></i></span>
+</nav>
+</header>
+
+<div class="container">
+    <div class="div-text">
+        <h4 class="h4">Hello my name is </h4>
+        <h1>Ghassen sta </h1>
+        <span>Software Developer</span>
+        <div class="p">  Junior passionate about programming and web development </div>
+        <a href="" class="button">Download CV</a>
+    </div>
+    <div class="div-img">
+        <img src="pngwing.com.png" alt="image Ghassen">
+    </div>
+    <div class="social">
+        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+        <a href=""><i class="fa-brands fa-instagram"></i></a>
+        <a href=""><i class="fa-brands fa-github"></i></a>
+        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+    </div>
+</div>
+
+</section>
+
+
+</body>
+
+<script>
+   btn=document.querySelector('.icon');
+   body=document.querySelector('theme-white');
+   btn.onclick=function(){
+    document.body.classList.toggle("theme-white");
+   }
+</script>
+</html>
